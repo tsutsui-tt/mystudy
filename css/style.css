@@ -1,0 +1,19 @@
+.loading{
+  margin-inline: auto;
+  width: 200px;
+  animation: spin .1s infinite linear;
+  transition: .3s;
+  position: fixed;
+}
+.loading.hide{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);/*回転する*/
+  }
+}
